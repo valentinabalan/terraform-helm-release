@@ -1,6 +1,6 @@
 module "wordpress" {
   source    = "valentinabalan/release/helm"
-  namespace = "kube-system"
+  namespace = "default"
   name      = "wordpress"
   wait      = false
   chart     = "../application"
